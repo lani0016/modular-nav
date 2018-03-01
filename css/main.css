@@ -19,12 +19,45 @@ html {
   box-sizing: inherit;
 }
 
-body {
+.img-flex {
   display: block;
   width: 100%;
 }
 
-li {
-  color: #0074d9;
+body {
+  margin: 0;
+}
+
+header {
   background-color: #e2e2e2;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: #0074d9;
+}
+
+a:hover {
+  color: #fff;
+  background-color: #0074d9;
+}
+
+.logo, .links {
+  text-align: center;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .logo {
+    text-align: left;
+  }
+
+  .links {
+    text-align: right;
+  }
+
 }
